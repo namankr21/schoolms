@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 
@@ -15,10 +15,21 @@ const ClassesSchema = new Schema(
     schlId: {
       type: mongoose.Types.ObjectId,
     },
+    noofsection: {
+      type: Number,
+      required: true,
+    },
     section: [
-        {
-            type: mongoose.Types.ObjectId,
-        }
+      {
+        type: mongoose.Types.ObjectId,
+        ref: "section",
+      },
+    ],
+    subject: [
+      {
+        type: mongoose.Types.ObjectId,
+        ref: "subclasslink",
+      },
     ],
     group: {
       type: String,

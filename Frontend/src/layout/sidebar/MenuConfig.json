@@ -1,0 +1,166 @@
+{
+  "menus": [
+    {
+      "title": "Dashboard",
+      "icon": "fa fa-tachometer-alt",
+      "type": "simple"
+    },
+    {
+      "title": "School",
+      "icon": "fa fa-tachometer-alt",
+      "type": "dropdown",
+      "active": false,
+      "submenus": [
+        {
+          "title": "Edit School"
+        },
+        {
+          "title": "Setting and Permission"
+        }
+      ]
+    },
+    {
+      "title": "Master",
+      "icon": "fa fa-shopping-cart",
+      "active": false,
+      "type": "dropdown",
+
+      "submenus": [
+        {
+          "title": "Class Master"
+        },
+        {
+          "title": "Group Subject Master"
+        },
+        {
+          "title": "Subject Link"
+        },
+        {
+          "title": "Stream Master"
+        },
+        {
+          "title": "Report"
+        }
+      ]
+    },
+    {
+      "title": "Student",
+      "icon": "fa fa-user",
+      "active": false,
+      "type": "dropdown",
+      "submenus": [
+        {
+          "title": "Registration"
+        },
+        {
+          "title": "Assign Roll/Feebook No."
+        },
+        {
+          "title": "Attendence"
+        },
+        {
+          "title": "Promotion"
+        },
+        {
+          "title": "ID Card Genrator"
+        },
+        {
+          "title": "Admit Card Genrator"
+        },
+        {
+          "title": "Exam Date Sheet"
+        },
+        {
+          "title": "Student List"
+        },
+        {
+          "title": "Donation Report"
+        },
+        {
+          "title": "Inactive Sudent"
+        },
+        {
+          "title": "Genrate Slips"
+        },
+        {
+          "title": "Attendence Report"
+        },
+        {
+          "title": "Student Wise Subject List"
+        },
+        {
+          "title": "Date Sheet Report"
+        },
+        {
+          "title": "TC Report"
+        }
+      ]
+    },
+    {
+      "title": "User Management",
+      "icon": "fa-solid fa-user-pen",
+      "active": false,
+      "type": "dropdown",
+      "submenus": [
+        {
+          "title": "Manage User"
+        }
+      ]
+    },
+
+    {
+      "title": "Payroll",
+      "icon": "fa fa-book",
+      "active": false,
+      "type": "dropdown",
+      "submenus": [
+        {
+          "title": "Staf Registration"
+        },
+        {
+          "title": "Branch"
+        },
+        {
+          "title": "Departement"
+        }
+      ]
+    },
+    {
+      "title": "Fee",
+      "icon": "fa fa-book",
+      "active": false,
+      "type": "dropdown",
+      "submenus": [
+        {
+          "title": "Fee Submitions"
+        },
+        {
+          "title": "Total dues"
+        },
+        {
+          "title": "Fee Summary"
+        }
+      ]
+    },
+    {
+      "title": "SMS",
+      "icon": "fa fa-book",
+      "active": false,
+      "type": "dropdown",
+      "submenus": [
+        {
+          "title": "Parent Message"
+        },
+        {
+          "title": "Student Message"
+        },
+        {
+          "title": "Staf Message"
+        },
+        {
+          "title": "SMS Templete"
+        }
+      ]
+    }
+  ]
+}
