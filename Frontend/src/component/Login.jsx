@@ -8,15 +8,15 @@ const Login = () => {
           <div className="row no-gutters">
             <div className="col-md-5">
               <img
-                src="../images/login.jpg"
+                src="/img/login.jpg"
                 alt="login"
-                className="login-card-img"
+                className="login-card-img" 
               />
             </div>
             <div className="col-md-7">
               <div className="card-body">
                 <div className="brand-wrapper">
-                  <img src="../assets/login.jpg" alt="logo" className="logo" />
+                  <img src="/img/login.jpg" alt="logo" className="logo" />
                 </div>
                 <p className="login-card-description">Sign into your account</p>
                 <form action="#!">
